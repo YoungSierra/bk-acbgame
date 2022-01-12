@@ -1,4 +1,4 @@
-module nombreproyecto
+module github.com/YoungSierra/bk-acbgame
 
 go 1.17
 

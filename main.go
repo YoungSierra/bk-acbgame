@@ -45,6 +45,7 @@ func GetHome(w http.ResponseWriter, r *http.Request) {
 	json.NewEncoder(w).Encode(res)
 }
 
+//funcion para obtener todos los usuarios
 func GetUsers(w http.ResponseWriter, r *http.Request) {
 
 	arrayUsers := []StructUser{}
